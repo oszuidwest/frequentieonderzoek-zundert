@@ -25,7 +25,7 @@
             <button type="submit" class="btn btn-primary">Bereken</button>
         </form>
 <div class="alert alert-info alert-dismissible fade show position-sticky" role="alert" style="margin-top: 20px;">
-    Data op basis van fmscan.org tussen 105.0 - 107.9mhz in omgeving Zundert <a href="freqs_filter.csv" class="alert-link">(Bekijk brondata)</a>
+    Data op basis van fmscan.org tussen 105.0 - 107.9 MHz in omgeving Zundert. Marge van 100 kHz rondom frequenties bij berekeningen. <a href="freqs_filter.csv" class="alert-link">(Bekijk brondata)</a>
     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
     </button>
