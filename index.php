@@ -46,7 +46,7 @@
             if (($handle = fopen($bestandsnaam, 'r')) !== FALSE) {
                 fgetcsv($handle); // Sla de header over
                 while (($data = fgetcsv($handle, 1000, ";")) !== FALSE) {
-                    $freq = floatval($data[0]);
+                    $freq = sprintf("%.1f", floatval($data[0]));
                     $afstand = intval(preg_replace('/[^0-9]/', '', $data[4]));
                     $frequenties["$freq"] = $frequenties["$freq"] ?? [];
                     $frequenties["$freq"][] = ['zender' => $data[2], 'afstand' => $afstand];
