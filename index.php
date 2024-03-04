@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FM Frequentie Checker</title>
+    <meta name="robots" content="noindex">
+    <title>FM Frequentie Checker Zundert</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .geschikt {
@@ -25,7 +26,7 @@
             <button type="submit" class="btn btn-primary">Bereken</button>
         </form>
 <div class="alert alert-info alert-dismissible fade show position-sticky" role="alert" style="margin-top: 20px;">
-    Data op basis van fmscan.org tussen 105.0 - 107.9 MHz in omgeving Zundert. Marge van 100 kHz rondom frequenties bij berekeningen. <a href="freqs_filter.csv" class="alert-link">(Bekijk brondata)</a>
+    Data van fmscan.org tussen 105.0 - 107.9 MHz in omgeving Zundert. Marge 100 kHz rondom frequenties bij berekeningen. <a href="freqs_filter.csv" class="alert-link">(Bekijk brondata)</a>
     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
     </button>
